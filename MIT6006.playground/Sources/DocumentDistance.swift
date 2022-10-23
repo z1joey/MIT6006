@@ -51,3 +51,44 @@ let D1 = "the cat"
 let D2 = "the dog"
 
 print(documentDistance(D1, D2))
+
+/*
+ What is Algorithm?
+ Input -> algo -> output
+
+ Program <-> Algorithm
+ - Programming language <-> pseudocode/structured English
+ - Computer <-> models of computation
+
+ Models of Computation
+ What operations an algorithm is allowed, and Cost of each step
+
+ - RAM(Random Access Machine)
+     - Random Access Memory (In computer, RAM is a huge array)
+         - Load O(1) words
+         - Do O(1) computations
+         - Store O(1) words
+         - O(1) registers
+     - Words:
+         - w bits, also known as input
+
+ - Pointer Machine
+     - Dynamically allocated objects
+     - Objects has O(1) fields(e.g. Val)
+     - Field = word (e.g. Int)
+     - Pointer to object or null
+     - Also known as reference
+
+ - Python Machine
+     - Has RAM and Pointer Machine
+     - ‘List’ = array
+     - List[i] = List[j] + 5, O(1) time
+     - X = X.next, O(1) time
+     - append(x), table doubling, O(1) time
+     - L = l1 + l2,  O(l1.count + l2.count)
+     - L.sort(), O(n logn)
+     - HashTable, Dict[key] = val, O(1)
+     - Long
+     - Heap
+
+ */
